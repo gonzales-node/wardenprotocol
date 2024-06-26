@@ -319,6 +319,7 @@ func (app *App) registerLegacyModules(appOpts servertypes.AppOptions, wasmOpts [
 		solomachine.AppModule{},
 		//wasm module
 		wasm.NewAppModule(app.AppCodec(), &app.WasmKeeper, app.StakingKeeper, app.AccountKeeper, app.BankKeeper, app.MsgServiceRouter(), app.GetSubspace(wasmtypes.ModuleName)),
+		// evmOS modules
 		feemarket.NewAppModule(app.FeeMarketKeeper, app.GetSubspace(feemarkettypes.ModuleName)),
 		evm.NewAppModule(&app.EvmKeeper, &app.AccountKeeper, app.GetSubspace(evmtypes.ModuleName)),
 	); err != nil {
