@@ -148,6 +148,12 @@ var (
 		minttypes.ModuleName,
 		crisistypes.ModuleName,
 		ibcexported.ModuleName,
+		// evmOS modules
+		evmtypes.ModuleName,
+		// NOTE: feemarket module needs to be initialized before genutil module:
+		// gentx transactions use MinGasPriceDecorator.AnteHandle
+		feemarkettypes.ModuleName,
+		
 		genutiltypes.ModuleName,
 		evidencetypes.ModuleName,
 		authz.ModuleName,
@@ -175,9 +181,6 @@ var (
 		// market map genesis must be called AFTER all consuming modules (i.e. x/oracle, etc.)
 		marketmaptypes.ModuleName,
 
-		// evmOS modules
-		evmtypes.ModuleName,
-		feemarkettypes.ModuleName,
 		// this line is used by starport scaffolding # stargate/app/initGenesis
 	}
 
@@ -270,7 +273,7 @@ var (
 		{Account: oracletypes.ModuleName, Permissions: []string{}},
 		{Account: incentivetypes.ModuleName, Permissions: []string{}},
 		{Account: alerttypes.ModuleName, Permissions: []string{authtypes.Burner, authtypes.Minter}},
-		{Account: evmtypes.ModuleName},
+		{Account: evmtypes.ModuleName, Permissions: []string{authtypes.Minter, authtypes.Burner}}, // used for secure addition and subtraction of balance using module account},
 		// this line is used by starport scaffolding # stargate/app/maccPerms
 	}
 
