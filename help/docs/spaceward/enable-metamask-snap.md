@@ -27,7 +27,7 @@ The Warden Protocol is in the testnet phase, so you have to use MetaMask Flask. 
 1. Connect to [SpaceWard](https://spaceward.buenavista.wardenprotocol.org). If it's your first time, see the [Quick start guide](buenavista-quick-start).
 2. On the right panel, click the MetaMask logo and then **Install Snap**.
 3. When your MetaMask Flask wallet opens, accept the installation prompt.
-4. In the left menu, navigate to **Keys**.
+4. On the left menu, navigate to **Keys**.
 5. Select the preferred key and click **Add to MetaMask**.
 6. Confirm in MetaMask Flask.
 

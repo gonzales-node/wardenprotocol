@@ -6,22 +6,25 @@ sidebar_position: 2
 
 ## Overview
 
-Welcome to **SpaceWard**, your all-in-one platform for managing wallets, exploring Omnichain Applications (OApps) and decentralized applications (dApps), and navigating the vibrant world of blockchain. 
+Welcome to **SpaceWard**, your all-in-one platform for managing wallets, exploring Omnichain Applications (OApps) and decentralized applications (dApps), and navigating the vibrant world of blockchain.
 
 Operating on the **Buenavista Testnet**, SpaceWard offers users a streamlined experience to interact with the **Sepolia Network**. Buenavista Testnet provides a secure environment for testing SpaceWard functionality and unleashing the potential of blockchain technology without real-world risks.
 
 Get ready to embark on an exciting journey into the future of decentralized finance and innovation!
 
 :::warning
+
 - This is a **testnet environment**. It's aimed for testing and can break at any time due to unforeseen circumstances.
 - You should **use only testnet assets** – for example, Sepolia ETH. Otherwise, your might lose your assets.
+
 :::
 
 ## Get started
 
 The following is a brief overview explaining how to start using SpaceWard. For more details, follow the provided links to step-by-step guides.
 
-1. Create one of the following Cosmos wallets:    
+1. Create one of the following Cosmos wallets:
+
     - 👉 [Leap](https://leapwallet.io/download)
     - 👉 [Keplr](https://www.keplr.app/download)
     - 👉 [Cosmostation](https://www.cosmostation.io/products/cosmostation_extension)
@@ -32,7 +35,7 @@ The following is a brief overview explaining how to start using SpaceWard. For m
 
 4. 👉 [Create a Space](create-a-space): On the top left, click **Active Space** and then **Create a New Space**.
 
-5. 👉 [Request a new Key](request-a-new-key): In the left menu, navigate to **Keys** and click **Create Key**.
+5. 👉 [Request a new Key](request-a-new-key): On the left menu, navigate to **Keys** and click **Create Key**.
 
 6. Fund your wallet: Select your new key, click **Receive** to get its address, and receive some Sepolia ETH from these faucets:
 

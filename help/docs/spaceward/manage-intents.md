@@ -12,7 +12,7 @@ To create an Intent, do this:
 
 1. Connect to [SpaceWard](https://spaceward.buenavista.wardenprotocol.org). If it's your first time, see the [Quick start guide](buenavista-quick-start).
 
-2. In the left menu, navigate to **Intents**.
+2. On the left menu, navigate to **Intents**.
 
 3. Click **Create a new Intent**.
 
