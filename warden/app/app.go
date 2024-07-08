@@ -173,6 +173,7 @@ type App struct {
 }
 
 func init() {
+	runtime.InitRuntimeModule()
 	userHomeDir, err := os.UserHomeDir()
 	if err != nil {
 		panic(err)
@@ -199,6 +200,7 @@ func AppConfig() depinject.Config {
 	return depinject.Configs(
 		moduleConfig(),
 		depinject.Provide(alerttypes.ProvideMsgAlertGetSigners),
+		depinject.Provide(ProvideMsgEthereumTxCustomGetSigner),
 		depinject.Provide(ProvideIncentives),
 		// Loads the ao config from a YAML file.
 		// appconfig.LoadYAML(AppConfigYAML),

@@ -8,7 +8,7 @@ replace (
 	// evmos integration - need this replace when importing cosmos/rosetta pkg
 	cosmossdk.io/core => cosmossdk.io/core v0.11.0
 	// evmos integration
-	github.com/cosmos/cosmos-sdk => github.com/evmos/cosmos-sdk v0.50.7-evmos
+	github.com/cosmos/cosmos-sdk => github.com/warden-protocol/cosmos-sdk v0.50.7-evmos-warden
 	// evmos + types for slinky
 	github.com/ethereum/go-ethereum => github.com/warden-protocol/go-ethereum v1.10.26-warden-evmos-rc2
 	// fix upstream GHSA-h395-qcrw-5vmq vulnerability.
@@ -31,6 +31,7 @@ require (
 	cosmossdk.io/x/circuit v0.1.1
 	cosmossdk.io/x/evidence v0.1.0
 	cosmossdk.io/x/feegrant v0.1.0
+	cosmossdk.io/x/tx v0.13.3
 	cosmossdk.io/x/upgrade v0.1.3
 	github.com/CosmWasm/wasmd v0.50.0
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2
@@ -74,7 +75,6 @@ require (
 	cloud.google.com/go/storage v1.38.0 // indirect
 	connectrpc.com/connect v1.16.0 // indirect
 	connectrpc.com/otelconnect v0.7.0 // indirect
-	cosmossdk.io/x/tx v0.13.3 // indirect
 	filippo.io/edwards25519 v1.0.0 // indirect
 	github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4 // indirect
 	github.com/99designs/keyring v1.2.2 // indirect
@@ -94,6 +94,9 @@ require (
 	github.com/bgentry/speakeasy v0.1.1-0.20220910012023-760eaf8b6816 // indirect
 	github.com/bits-and-blooms/bitset v1.13.0 // indirect
 	github.com/blendle/zapdriver v1.3.1 // indirect
+	github.com/btcsuite/btcd v0.24.0 // indirect
+	github.com/btcsuite/btcd/btcutil v1.1.5 // indirect
+	github.com/btcsuite/btcd/chaincfg/chainhash v1.1.0 // indirect
 	github.com/bufbuild/protocompile v0.9.0 // indirect
 	github.com/bufbuild/protovalidate-go v0.6.0 // indirect
 	github.com/bufbuild/protoyaml-go v0.1.8 // indirect
