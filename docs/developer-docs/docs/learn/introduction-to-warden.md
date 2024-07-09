@@ -8,7 +8,7 @@ slug: /
 
 ## The Warden Protocol
 
-The **Warden Protocol** is a modular L1 blockchain enabling developers to deploy [Omnichain Applications (OApps)](/learn/glossary#omnichain-application) with Rust and [CosmWasm](https://cosmwasm.com) or Solidity. You can also participate by operating a [Keychain](/learn/glossary#keychain) or running a [node](/learn/glossary#warden-protocol-node) and becoming a [validator](/learn/glossary#validator).
+The **Warden Protocol** is a modular L1 blockchain enabling developers to deploy [Omnichain Applications (OApps)](/learn/glossary#omnichain-application) with Rust & [CosmWasm](https://cosmwasm.com) or Solidity. You can also participate by operating a [Keychain](/learn/glossary#keychain) or running a [node](/learn/glossary#warden-protocol-node) and becoming a [validator](/learn/glossary#validator).
 
 OApps are a powerful evolution of traditional smart contracts. They allow signing transactions at any chain, while traditional smart contract applications only target users of a single chain. An example of an OApp is [SpaceWard](/learn/glossary#spaceward) – our application functioning as the front-end interface for Warden.
 
