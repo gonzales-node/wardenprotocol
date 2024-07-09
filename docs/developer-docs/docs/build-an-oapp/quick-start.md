@@ -6,7 +6,7 @@ sidebar_position: 2
 
 *This section is under construction.*
 
-*To get started, you can check our list of CosmWasm resources in the [Useful links](useful-links) section.*
+*To get started, you can check our list of CosmWasm and Solidity resources in the [Useful links](useful-links) section.*
 
 <!---
 - A guide explaining how to start building using an npx command for creating a smart contract (once we have it)
