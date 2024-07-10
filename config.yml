@@ -5,15 +5,15 @@ build:
 accounts:
 - name: alice
   coins:
-  - 200000000uward
+  - 200000000000000000000award
 - name: bob
   coins:
-  - 100000000uward
+  - 100000000000000000000award
 - name: shulgin
   # warden10kmgv5gzygnecf46x092ecfe5xcvvv9r870rq4
   mnemonic: exclude try nephew main caught favorite tone degree lottery device tissue tent ugly mouse pelican gasp lava flush pen river noise remind balcony emerge
   coins:
-  - 200000000uward
+  - 200000000000000000000award
 client:
   openapi:
     path: docs/static/openapi.yml
@@ -24,10 +24,10 @@ client:
 faucet:
   name: bob
   coins:
-  - 100000uward
+  - 100000000000000000award
 validators:
 - name: alice
-  bonded: 100000000uward
+  bonded: 100000000000000000000award
   home: ~/.warden
 genesis:
   app_state:
@@ -52,15 +52,15 @@ genesis:
             - warden10kmgv5gzygnecf46x092ecfe5xcvvv9r870rq4
     staking:
       params:
-        bond_denom: "uward"
+        bond_denom: "award"
     gov:
       params:
         min_deposit:
-          - denom: "uward"
-            amount: "100000"
+          - denom: "award"
+            amount: "100000000000000000"
         expedited_min_deposit:
-          - denom: "uward"
-            amount: "200000"
+          - denom: "award"
+            amount: "200000000000000000"
         voting_period: "20s"
         expedited_voting_period: "10s"
 

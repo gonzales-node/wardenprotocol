@@ -10,9 +10,9 @@ This paragraph gives a step-by-step instruction on how to onboard a new keychain
     
 	-  	Admin intent: Find the intent you want to have applied to the keychain. For default policies, add 0.
     
-	-  	Key Request Fee: Indicates how much a key creation should cost the requester. Indicated in uward.
+	-  	Key Request Fee: Indicates how much a key creation should cost the requester. Indicated in award.
     
-	-  	Signature Request Fee: Indicates how much a signature request cost the requester. Indicated in uWARD
+	-  	Signature Request Fee: Indicates how much a signature request cost the requester. Indicated in award
     
 
 4.  A new keychain object is created on-chain with its own dedicated keychain address.
