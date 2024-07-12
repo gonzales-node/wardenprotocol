@@ -50,9 +50,9 @@ See also: [Unbonding validator](#unbonding-validator), [Unbonded validator](#unb
 
 ## Bridging
 
-Bridging is a method allowing users to transfer assets across different blockchain networks. This technology utilizes cross-chain bridges – smart contracts that receive and lock tokens on the source chain and then mint a corresponding number of "wrapped" tokens on the destination chain.
+Bridging is a method allowing users to transfer assets across different blockchain networks. This technology utilizes cross-chain bridges – smart contracts that receive and lock tokens on the source chain and then mint a corresponding number of wrapped tokens on the destination chain. Warden currently supports bridging through Axelar.
 
-Warden's [Omnichain Applications](#omnichain-application) support cross-chain token transfer and general message parsing through Axelar. Currently there are [64 connected chains](https://axelarscan.io). You can perform transactions on Ethereum, other IBC-enabled chains, and any ECDSA- or EDDSA-based chain supported by the [Keychain](#keychain) you're using – for example, Bitcoin.
+Learn more: [Bridging](bridging)
 
 ---
 
@@ -117,8 +117,8 @@ The Intent-Specific Language (ISL) is a language that allows users to configure 
 
 Keys in blockchain are paired to identify users and secure the ownership of wallets:
 
-- **Public key:** A public wallet address
-- **Private key:** A private code for signing transactions on the wallet
+- **Public key**: A public wallet address
+- **Private key**: A private code for signing transactions on the wallet
 
 Warden offers [Modular Key Management](#modular-key-management): you can use [Keychains](#keychain) to generate key pairs and sign transactions. This is how it works: [Key request](#key-request), [Signature request](#signature-request).
 
@@ -209,7 +209,9 @@ While most interoperability providers focus on particular ecosystems, Warden's g
 
 ## Oracle service
 
-An oracle is a third-party service that enables smart contracts access real-life data feeds: prices, stock marked data, weather conditions, etc. Warden is currently integrating with [Slinky](https://skip-protocol-docs.netlify.app/slinky/overview). It's an oracle service provided by Skip Protocol and offering mostly price data. More details are coming soon.
+An oracle is a third-party service that enables smart contracts access real-life data feeds: prices, stock marked data, weather conditions, etc. Warden is integrated with [Slinky](https://skip-protocol-docs.netlify.app/slinky/overview) – an oracle service provided by Skip Protocol and offering mostly price data.
+
+Learn more: [Oracle services](oracle-services)
 
 ---
 
@@ -342,9 +344,9 @@ An Agent is an autonomous trainable program driven by artificial intelligence. A
 
 A Trigger is an event listener that watches for a data update starting a [Workflow](#workflow). There are two types of Triggers:
 
-- **On-chain Trigger:** It can listen to such events as changes in a price feed from an oracle.
+- **On-chain Trigger**: It can listen to such events as changes in a price feed from an [oracle](#oracle-service).
 
-- **Off-chain Trigger:** It can track messages in Slack, updates in a Google spreadsheet, etc. You can implement off-chain Triggers through webhooks and API calls.
+- **Off-chain Trigger**: It can track messages in Slack, updates in a Google spreadsheet, etc. You can implement off-chain Triggers through webhooks and API calls.
 
 *This is a new feature that is coming soon.*
 

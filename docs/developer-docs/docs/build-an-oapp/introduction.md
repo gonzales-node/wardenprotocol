@@ -16,11 +16,15 @@ This section explains how to build the backend and frontend of an OApp. Here you
 
 The main part of any Omnichain Application is an **Omnichain Contract**: a smart contract that allows signing transactions and messages at any destination chain. For this reason, OApp development starts with building a custom Omnichain Contract.
 
-The Warden Protocol integrates with the [`x/wasm`](/learn/warden-protocol-modules/external-modules#xwasm) and [`x/evm`](/learn/warden-protocol-modules/external-modules#xevm) modules, allowing you to execute two types of smart contracts:
+As shown below, the Warden Protocol integrates with two external modules allowing you to execute two types of smart contracts.
 
-- WebAssembly smart contracts developed using [CosmWasm](https://cosmwasm.com) and Rust
-- Ethereum Virtual Machine (EVM) contracts written in Solidity, charged by [Evmos](https://docs.evmos.org/protocol/modules/evm)
+### CosmWasm contracts
 
+The [`x/wasm`](/learn/warden-protocol-modules/external-modules#xwasm) Warden module allows executing WebAssembly smart contracts developed with [CosmWasm](https://cosmwasm.com) and **Rust**.
+
+### EVM contracts
+
+The [`x/evm`](/learn/warden-protocol-modules/external-modules#xevm) Warden module allows executing Ethereum Virtual Machine (EVM) contracts charged by [Evmos](https://docs.evmos.org/protocol/modules/evm). They are written in **Solidity**.
 
 ## Get started
 
