@@ -20,6 +20,6 @@ This integration enables the support of cross-chain token transfers and general 
 
 ## Available chains
 
-Currently Axelar supports are [65 connected chains](https://axelarscan.io). This number may change over the course of time as more chains are added.
+Currently Axelar provides [65 connected chains](https://axelarscan.io). This number may change over the course of time as more chains are added.
 
 You can perform transactions on Ethereum, other IBC-enabled chains, and any ECDSA- or EDDSA-based chain supported by the [Keychain](/learn/glossary#keychain) you're using – for example, Bitcoin.
