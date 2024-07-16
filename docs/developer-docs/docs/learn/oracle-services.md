@@ -8,7 +8,7 @@ sidebar_position: 6
 
 An **oracle** is a third-party service that enables smart contracts access real-life **data feeds**: prices, stock marked data, weather conditions, etc.
 
-[Omnichain Application](/learn/glossary#omnichain-application) builders can incorporate Slinky, an oracle services supported by Warden, into their apps. See the sections below to learn more.
+[Omnichain Application](/learn/glossary#omnichain-application) builders can incorporate **Slinky**, an oracle services supported by Warden, into their apps. See the sections below to learn more.
 
 :::tip
 Access to oracle data feeds significantly enhances the capabilities of Warden's [Intents](/learn/glossary#intent), aloowing users to create highly specific Intents such as limit orders for decentralized exchanges. Once we implement [Triggers](/learn/glossary#trigger), users will also be able to create Intents triggered by changes in data feeds.

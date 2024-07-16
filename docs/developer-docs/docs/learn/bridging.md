@@ -10,13 +10,11 @@ sidebar_position: 5
 
 This technology utilizes **cross-chain bridges** – smart contracts that receive and lock tokens on the source chain and then mint a corresponding number of **wrapped tokens** on the destination chain.
 
-Warden's [Omnichain Applications](/learn/glossary#omnichain-application) support bridging through Axelar – see the sections below for details. More integrations are coming soon.
-
 ## Axelar
 
-Warden integrates with Axelar General Message Passing – see the [x/gmp](/learn/warden-protocol-modules/external-modules#xgmp) module.
+Thanks to Warden's [x/gmp](/learn/warden-protocol-modules/external-modules#xgmp) module, [Omnichain Applications](/learn/glossary#omnichain-application) support cross-chain token transfers and general message parsing through **Axelar**.
 
-This integration enables the support of cross-chain token transfers and general message parsing through Axelar.
+More integrations are coming soon.
 
 ## Available chains
 
