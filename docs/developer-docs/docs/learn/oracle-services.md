@@ -17,7 +17,7 @@ Access to oracle data feeds significantly enhances the capabilities of Warden's 
 
 ## Slinky
 
-Warden integrates with [x/oracle](/learn/warden-protocol-modules/external-modules#xoracle) – an external module by **Skip Protocol**. This module provides accces to [Slinky](https://skip-protocol-docs.netlify.app/slinky/overview) – an oracle service offering mostly price data.
+Warden integrates with [x/oracle](/learn/warden-protocol-modules/external-modules#xoracle) – an external module by **Skip Protocol**. This module provides access to [Slinky](https://skip-protocol-docs.netlify.app/slinky/overview) – an oracle service offering mostly price data.
 
 Key features of Warden's integration with Slinky include the following:
 

@@ -14,7 +14,7 @@ Warden's [Omnichain Applications](/learn/glossary#omnichain-application) support
 
 ## Axelar
 
-Warden integrates with [x/gmp](/learn/warden-protocol-modules/external-modules#xgmp) – an external module provided by **Axelar**.
+Warden integrates with Axelar General Message Passing – see the [x/gmp](/learn/warden-protocol-modules/external-modules#xgmp) module.
 
 This integration enables the support of cross-chain token transfers and general message parsing through Axelar.
 

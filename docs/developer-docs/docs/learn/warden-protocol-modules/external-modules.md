@@ -20,7 +20,9 @@ To learn more, see the following:
 
 ## x/gmp
 
-The `x/gmp` module is a Cosmos SDK module by **Axelar** that enables Axelar General Message Passing: sending and receiving messages on EVM and Cosmos chains.
+The `x/gmp` module is a Cosmos SDK module that enables **Axelar** General Message Passing: sending and receiving messages on EVM and Cosmos chains.
+
+Please note that this module was created by Warden for integration with Axelar's `x/gmp` module. Additional information will be available soon.
 
 To learn more, see the following:
 
